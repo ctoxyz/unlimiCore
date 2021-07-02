@@ -1,0 +1,295 @@
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-table;}
+
+
+
+
+body{
+  padding:					0 0 0 0;
+  /* background:				url(foo) fixed; */
+  margin:						0;
+}
+
+.generic {
+	font-family: Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+
+#globalContainer {
+  margin:						0 0 0 0;
+  padding:					0px 0px 0px 0px;
+  width: 						100%;
+  height: 					100%;
+  background-color: #000000;
+  border: 					0px solid;
+  position: 				absolute;
+  left:							0px;
+  top:							0px;
+  z-index:					0;
+}
+
+
+#nav_navbarcontainer {
+  position:					fixed;
+  _position:				absolute;
+  top:							0;
+  
+  left:							0;
+  margin:						0;
+  padding:					0;
+  z-index:					10;
+  width: 						100%;
+  height: 					91px;
+  border: 					0px solid;
+  border-bottom:		0px solid;
+  background:				url(/common/img/tb/tb-r4.jpg);
+  background-repeat:no-repeat;
+  background-color: #000000;
+ }
+
+
+#nav_controlcontainer {
+  position: 				fixed;
+  margin:						0 0 0 0;
+  padding:					2px 0 0 5px;
+  width: 						219px;
+  height: 					61px;
+  border: 					0px solid #f00;
+	left:							0px;
+  top:							0px;
+  z-index:					900;
+  text-align:				left;
+}
+
+     #nav_mbricon {
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					2px 0 0 5px;
+       width: 					29px;
+       height: 					55px;
+       border: 					0px solid #ffffff;
+     	 left:						4px;
+       top:							3px;
+       z-index:					1;
+       text-align:			left;
+       background:			url(/common/img/tb/tb-r4.mbr-icon.jpg);
+       background-repeat:no-repeat;
+     }
+     
+     #nav_mbrgreeting {
+       z-index:					20;
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					115px;
+       height: 					25px;
+       border: 					1px solid #ffffff;
+     	 left:						35px;
+       top:							3px;
+       text-align:			left;
+     }
+
+     #nav_mbrstatus_VERIFIED_PHOTOS {
+       z-index:					200;
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					50px;
+       height: 					50px;
+       border: 					0px solid #ffffff;
+     	 left:						100px;
+       top:							18px;
+       text-align:			left;
+     }
+
+
+
+     #nav_mbrmystuff {
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					63px;
+       height: 					60px;
+       border: 					0px solid #ffffff;
+     	 left:						156px;
+       top:							0px;
+       z-index:					10;
+       cursor:					pointer;
+     }
+
+     #nav_mbrmymail {
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					62px;
+       height: 					58px;
+       border: 					0px solid;
+       left:						240px;
+       top:							2px;
+       z-index:					1;
+     }
+
+
+     #nav_mbraddcontent {
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					62px;
+       height: 					58px;
+       border: 					0px solid #fff;
+       left:						320px;
+       top:							2px;
+       z-index:					1;
+     }
+
+
+     #nav_mbrupgrade {
+       position: 				fixed;
+       margin:					0 0;
+       padding:					0;
+       width: 					93px;
+       height: 					97px;
+       border: 					0px solid #ffffff;
+       left:						650px;
+       top:							2px;
+       z-index:					99;
+     }
+
+
+
+
+     #nav_chatroomindicator {
+			 position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					175px;
+       height: 					21px;
+       border: 					0px solid;
+       left:						520px;
+       top:							5px;
+       z-index:					1;
+     }
+     
+     #nav_fgselector {
+			 position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					175px;
+       height: 					auto;
+       border: 					0px solid;
+       left:						520px;
+       top:							32px;
+       z-index:					1;
+       background: 			#000;
+     }
+     
+     #fgselect {
+       background: 			#000;
+       color: 					#fff;
+       cursor: 					pointer;
+       font-size: 			14px;
+       line-height: 		1.7em;
+       list-style: 			none;
+       margin: 					0;
+       border: 					0px solid;
+       background-color:inherit;
+     }
+
+
+
+     #icon_mag {
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					67px;
+       height: 					54px;
+       border: 					0px solid;
+       left:						720px;
+       top:							2px;
+       z-index:					2;
+     }
+
+
+     #nav_logocontainer {
+       position: 				relative;
+       margin:					auto 0;
+       padding:					0;
+       width: 					324px;
+       height: 					84px;
+       border: 					0px solid #fff;
+       float:						right;
+       right:						5px;
+       top:							0px;
+       z-index:					1;
+       text-align: 			right;
+     }
+
+
+
+
+
+
+
+     
+     
+
+     
+
+
+
+
+
+
+/* base menu */
+
+#nav_buttonscontainer {
+  position: 				fixed;
+  margin:						0 0 0 0;
+  padding:					0;
+  width: 						100%;
+  height: 					30px;
+  border: 					0px solid;
+  left:							0px;
+  top:							61px;
+  z-index:					5;
+}
+
+
+
+
+
+#contentcontainer {
+  margin:						0 0 0 0;
+  padding:					0;
+  width: 						80%;
+  height: 					1000px;
+  background-color: #ddd;
+  border: 					1px solid;
+  position: 				absolute;
+  left:							50px;
+  top:							100px;
+  z-index:					1;
+}
+
+
+
+
+
+/* original */
+/*
+#navbarcontainer {
+  margin:						0 0 0 0;
+  padding:					0;
+  width: 						450px;
+  height: 					80px;
+  background-color: #BDDDFF;
+  border: 					0px solid;
+  position: 				fixed;
+  left:							250px;
+  top:							0px;
+  z-index:					10;
+}
+*/

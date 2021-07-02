@@ -1,0 +1,424 @@
+
+
+
+/*
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-table;}
+*/
+
+
+
+* html #nav_navbarcontainer{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px" : body.scrollTop+"px");}
+
+
+html, body{
+  padding:					0;
+  /* background:				url(foo) fixed; */
+  margin:						0;
+  height:						100%;
+}
+
+.generic {
+	font-family: Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+/*
+#globalContainer {
+  position: 				absolute;
+  margin:						0 0 0 0;
+  padding:					0px 0px 0px 0px;
+  width: 						100%;
+  height: 					100%;
+  background-color: #000000;
+  border: 					0px solid;
+  left:							0px;
+  top:							0px;
+  z-index:					0;
+}
+*/
+
+
+
+#nav_controlcontainer {
+  position: 				absolute;
+  margin:						0 0 0 0;
+  padding:					2px 0 0 5px;
+  width: 						350px;
+  height: 					61px;
+  border: 					0px solid #ffffff;
+	left:							0px;
+  top:							0px;
+  z-index:					900;
+  text-align:				left;
+}
+
+     #nav_mbricon {
+       position: 				absolute;
+       margin:					0 0 0 0;
+       padding:					2px 0 0 5px;
+       width: 					29px;
+       height: 					55px;
+       border: 					0px solid #ffffff;
+     	 left:						4px;
+       top:							3px;
+       z-index:					1;
+       text-align:			left;
+       background:			url(/common/img/tb/tb-r4.mbr-icon-orange.jpg);
+       background-repeat:no-repeat;
+     }
+     
+     #nav_mbrgreeting {
+       z-index:					20;
+       position: 				absolute;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					115px;
+       height: 					25px;
+       border: 					1px solid #ffffff;
+     	 left:						35px;
+       top:							3px;
+       text-align:			left;
+     }
+
+     #nav_mbrstatus_VERIFIED_PHOTOS {
+       z-index:					200;
+       position: 				absolute;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					50px;
+       height: 					50px;
+       border: 					0px solid #ffffff;
+     	 left:						310px;
+       top:							5px;
+       text-align:			left;
+     }
+
+     #nav_mbrstatus_VIP {
+       z-index:					200;
+       position: 				absolute;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					130px;
+       height: 					10px;
+       border: 					0px solid #ffffff;
+     	 left:						38px;
+       top:							22px;
+       text-align:			left;
+     }
+
+
+
+     #nav_mbrmystuff {
+       position: 				relative;
+       margin:					auto 0;
+       padding:					0;
+       width: 					120px;
+       height: 					60px;
+       border: 					0px solid #fff;
+			 float:						right;
+     	 right:						-240px;
+       top:							-5px;
+       z-index:					100;
+       text-align:			left;
+     }
+
+
+
+     #nav_mbrmymail {
+       position: 				absolute;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					62px;
+       height: 					58px;
+       border: 					0px solid;
+       left:						240px;
+       top:							2px;
+       z-index:					1;
+     }
+
+     #nav_mbraddcontent {
+       position: 				fixed;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					62px;
+       height: 					58px;
+       border: 					0px solid #fff;
+       left:						320px;
+       top:							2px;
+       z-index:					1;
+     }
+
+     #nav_mbrupgrade {
+       position: 				fixed;
+       margin:					0 0;
+       padding:					0;
+       width: 					93px;
+       height: 					97px;
+       border: 					0px solid #ffffff;
+       left:						650px;
+       top:							2px;
+       z-index:					99;
+     }
+
+
+
+     #nav_chatroomindicator {
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					175px;
+       height: 					21px;
+       border: 					0px solid;
+       position: 				absolute;
+       left:						520px;
+       top:							5px;
+       z-index:					1;
+     }
+     
+     #nav_fgselector {
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					175px;
+       height: 					auto;
+       border: 					0px solid;
+       position: 				absolute;
+       left:						520px;
+       top:							32px;
+       z-index:					1;
+       background: 			#000;
+     }
+     
+     #fgselect {
+       background: 			#000;
+       color: 					#fff;
+       cursor: 					pointer;
+       font-size: 			14px;
+       line-height: 		1.7em;
+       list-style: 			none;
+       margin: 					0;
+       border: 					0px solid;
+       background-color:inherit;
+     }
+
+     #icon_mag {
+       position: 				absolute;
+       margin:					0 0 0 0;
+       padding:					0;
+       width: 					67px;
+       height: 					54px;
+       border: 					0px solid;
+       left:						720px;
+       top:							2px;
+       z-index:					2;
+     }
+
+
+     #nav_logocontainer {
+       position: 				relative;
+       margin:					auto 0;
+       padding:					0;
+       width: 					324px;
+       height: 					84px;
+       border: 					0px solid #fff;
+       float:						right;
+       right:						5px;
+       top:							0px;
+       z-index:					1;
+       text-align: 			right;
+     }
+
+
+
+
+
+
+
+     
+     
+
+     
+
+
+
+
+
+
+/* base menu */
+
+#nav_buttonscontainer {
+  margin:						0 0 0 0;
+  padding:					0;
+  width: 						100%;
+  height: 					30px;
+  border: 					0px solid #ffffff;
+  position: 				absolute;
+  left:							0px;
+  top:							61px;
+  z-index:					5;
+}
+
+
+
+
+
+#contentcontainer {
+  margin:						0 0 0 0;
+  padding:					0;
+  width: 						80%;
+  height: 					1000px;
+  background-color: #ddd;
+  border: 					1px solid;
+  position: 				absolute;
+  left:							50px;
+  top:							100px;
+  z-index:					1;
+}
+
+
+
+
+
+/* original */
+/*
+#navbarcontainer {
+  margin:						0 0 0 0;
+  padding:					0;
+  width: 						450px;
+  height: 					80px;
+  background-color: #BDDDFF;
+  border: 					0px solid;
+  position: 				fixed;
+  left:							250px;
+  top:							0px;
+  z-index:					10;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*  HELP DESK  */
+
+
+
+
+#level_1_panel {
+  position: 				absolute;
+  margin:						0 auto;
+  padding:					0;
+  width: 						942px;
+  height: 					225px;
+  background-color: #ffffff;
+  /* background:				url(/common/img/backgrounds/topheader/vista.2.jpg); */
+  border: 					1px solid #565643;
+  left:							10px;
+  top:							20px;
+  z-index:					1;
+  align:						center;
+}
+
+#subcontainer_titlebar {
+  float:						left;
+  border: 					0px solid #565643;
+  border-bottom: 		1px solid #565643;
+  position: 				relative;
+  left:							0px;
+  top:							0px;
+  width:						942px;
+  height: 					30px;
+  text-align:				left;
+  background-color: #000000;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================================= */
+/* SUBMIT BUTTONS */
+/* ========================================================================================= */
+
+
+INPUT#send2friend {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				21px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+
+.genericsubmit {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				21px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+
+.genericsubmit21px {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				21px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+.genericsubmit18px {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				18px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+.genericsubmit16px {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				16px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+.genericsubmit14px {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				14px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+
+.genericsubmit12px {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				12px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+.genericsubmit10px {
+	font-family: 			Myriad, "Myriad Web", Helvetica, Arial, sans-serif;
+	font-size: 				10px;
+	font-weight: 			bold;
+	letter-spacing: 	-1px;
+}
+
+/* ========================================================================================= */
+/* END SUBMIT BUTTONS */
+/* ========================================================================================= */
+

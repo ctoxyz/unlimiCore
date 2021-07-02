@@ -1,0 +1,224 @@
+
+/* ===================================== default container ===================================== */
+#cont-maincontent {
+	position:					relative;
+  top:							100px;
+  margin:						0 auto 0 auto;
+  padding:					0 0 0 0;
+  width: 						900px;
+  height: 					120px;
+  border: 					0px solid #f00;
+  z-index:					1;
+	}
+
+
+
+
+
+
+
+
+
+
+/* ===================================== forms ===================================== */
+.form_label {
+	font-size:				22px;
+	font-weight:			bold;
+	color:						#fff;
+	font-family:			arial;
+	width:						165px;
+	height:						30px;
+	}
+
+.form_input_td {
+	font-size:				20px;
+	font-weight:			bold;
+	color:						#fff;
+	font-family:			arial;
+	width:						180px;
+	size:							25;
+	}
+
+.form_input {
+	font-size:				20px;
+	font-weight:			normal;
+	color:						#000;
+	font-family:			arial;
+	border:						1px solid #575757;
+	width:						180px;
+	}
+
+.form_button_submit {
+	font-size:				25px;
+	font-weight:			bold;
+	color:						#000;
+	font-family:			arial;
+	width:						140px;
+	}
+
+
+/* ===================================== control ===================================== */
+.formControl_label {
+	font-size:				14px;
+	font-weight:			bold;
+	color:						#fff;
+	font-family:			arial;
+	width:						175px;
+	height:						25px;
+	}
+
+.formControl_input_td {
+	font-size:				12px;
+	font-weight:			bold;
+	color:						#fff;
+	font-family:			arial;
+	width:						180px;
+	size:							25;
+	}
+
+.formControl_input {
+	font-size:				12px;
+	font-weight:			normal;
+	color:						#000;
+	font-family:			arial;
+	border:						1px solid #575757;
+	width:						180px;
+	}
+
+.formControl_inputSelect {
+	font-size:				12px;
+	font-weight:			normal;
+	color:						#000;
+	font-family:			arial;
+	border:						1px solid #575757;
+	/* width:						auto; */
+	width:						185px;
+	}
+
+.formControl_inputSelect_90px {
+	font-size:				12px;
+	font-weight:			normal;
+	color:						#000;
+	font-family:			arial;
+	border:						1px solid #575757;
+	/* width:						auto; */
+	width:						90px;
+	}
+
+
+.formControl_button_submit {
+	font-size:				15px;
+	font-weight:			bold;
+	color:						#000;
+	font-family:			arial;
+	width:						140px;
+	}
+
+
+
+/* ===================================== report ===================================== */
+
+.reportControl_button_submit {
+	font-size:				10px;
+	font-weight:			bold;
+	color:						#000;
+	font-family:			arial;
+	width:						auto;
+	height:						20px;
+	border:						1px solid #000;
+	color:						#f00;
+	}
+
+
+.reportControl_quota_input {
+	font-size:				15px;
+	font-weight:			bold;
+	color:						#000;
+	font-family:			arial;
+	width:						50px;
+	height:						20px;
+	border:						1px solid #000;
+	color:						#158e02;
+	text-align:				center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================== TRANSACTION FORM ===================================== */
+.formControl_label_TRANSACTION {
+	font-size:				12px;
+	font-weight:			bold;
+	color:						#fff;
+	font-family:			arial;
+	width:						100px;
+	height:						25px;
+	}
+
+.formControl_label_TRANSACTION_WIDER {
+	font-size:				12px;
+	font-weight:			bold;
+	color:						#fff;
+	font-family:			arial;
+	width:						120px;
+	height:						25px;
+	}
+
+.formControl_input_td {
+	font-size:				12px;
+	font-weight:			bold;
+	color:						#fff;
+	font-family:			arial;
+	width:						180px;
+	size:							25;
+	}
+
+.formControl_input {
+	font-size:				12px;
+	font-weight:			normal;
+	color:						#000;
+	font-family:			arial;
+	border:						1px solid #575757;
+	width:						180px;
+	}
+
+.formControl_inputSelect {
+	font-size:				12px;
+	font-weight:			normal;
+	color:						#000;
+	font-family:			arial;
+	border:						1px solid #575757;
+	/* width:						auto; */
+	width:						185px;
+	}
+
+.formControl_inputSelect_90px {
+	font-size:				12px;
+	font-weight:			normal;
+	color:						#000;
+	font-family:			arial;
+	border:						1px solid #575757;
+	/* width:						auto; */
+	width:						90px;
+	}
+
+
+.formControl_button_submit {
+	font-size:				15px;
+	font-weight:			bold;
+	color:						#000;
+	font-family:			arial;
+	width:						140px;
+	}
