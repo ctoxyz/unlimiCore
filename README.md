@@ -1,13 +1,6 @@
-# unlimiCore Engineering System
-
-no limit code
-
-2003/4 - primitive 
-
+![readme-1](https://user-images.githubusercontent.com/14218574/232992658-f48ff48e-6ca6-48d6-ab60-78e0731bf030.jpg)
 
 # unlimiCore Engineering System
-
-no limit code
 
 2003/4 - primitive
 
@@ -52,12 +45,12 @@ SM.topnav.php
 - CSS, JS Inclusion
 - Top Header Navigation System
 
-SMLIB (custom JS framework)
-SM.lib.TELEPHONY.js
-SM.lib.EFFECTS.js
-SM.lib.FORMS.js
-SM.lib.HELPDESK.js
-SM.lib.REPORTS.js
+ SMLIB (custom JS framework)
+ SM.lib.TELEPHONY.js
+ SM.lib.EFFECTS.js
+ SM.lib.FORMS.js
+ SM.lib.HELPDESK.js
+ SM.lib.REPORTS.js
 
 Class.unlimiCore
 
@@ -149,4 +142,4 @@ base admintools w/ god account
 
 ![readme-2](https://user-images.githubusercontent.com/14218574/232992648-67fc2a63-8420-48e9-b851-d3a422f042ae.jpg)
 ![readme-3](https://user-images.githubusercontent.com/14218574/232992655-eab19bf1-66ae-415f-9418-2759c5492f70.jpg)
-![readme-1](https://user-images.githubusercontent.com/14218574/232992658-f48ff48e-6ca6-48d6-ab60-78e0731bf030.jpg)
+
